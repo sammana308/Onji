@@ -22,10 +22,28 @@ body {
 .sectionOne,
 .sectionTwo,
 .sectionThree,
-.sectionFour {
+.sectionFour,
+.sectionFive,
+.sectionInput {
   padding-left: 5em;
 }
 
+.sectionSix {
+  flex: 1;
+}
+
+.sectionSix ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 50px;
+}
+
+.sectionInput {
+  height: 100vh;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
   font-size: 54px;
   font-weight: bolder;
