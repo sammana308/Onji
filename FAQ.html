@@ -7,9 +7,9 @@
     <title>FAQ</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body background="./assets/faq.png">
-    <main>
-        <article role="article">
+<body>
+    <main role="main">   <!--main-->
+        <article role="article">    <!--article-->
             <header class="banner"> <!--This is the banner of the webpage which includes the heading and the navigation-->
                 <h1>Onji</h1>
                 <nav role ="navigation"> <!-- Here are the navigation links-->
@@ -22,57 +22,58 @@
                 </nav>
             </header>
 
-            <section  class="sectionOne">
+            <section  class="sectionOne">   <!--section 1-->
             <h2>FAQ</h2>
-            <details>
-                <summary>What breed is Onji?</summary>
-                <div>
-                <p>Onji is an American  short hair.</p>
-                </div>
-            </details>
-            <details>
-                <summary>When was Onji adopted?</summary>
-                <div>
-                <p>Onji was adopted in the month of October in 2019.</p>
-                </div>
-            </details>
-            <details>
-                <summary>Does he scratch or bite?</summary>
-                <div>
-                <p>No, Onji is a really friendly cat. Infact, he can sense sadness. He will sit next to his human for support.</p>
-                </div>
-            </details>
-            <details>
-                <summary>What is Onji really good at?</summary>
-                <div>
-                <p>Onji is extremely skilled at begging food. He will stare at the food and slowly blink his eyes at you until you give in and feed him some food.</p>
-                </div>
-            </details>
-        </section>
-        <section class="sectionInput">
-            <p><br><br><b>If you have any questions about this cute ginger cat, you can send a message here in the text box.<b> </p>
-            <div class="container">
-                <form action="">
-                    <div class="form-group">
-                        <label for="Name">Name(2 to 50 characters) </label>
-                        <input type="text" id="firstName" name="firstName" required
-                        minlength="2" maxlength="50">       <!--This is where  input elemenet and minlength,maxlength attributes are used-->
-                    </div>
-                    <div class="form-group">
-                        <label for="email">email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="Message">Message</label>
-                        <textarea name="Message" id="Message"  cols="30" rows="10"></textarea>
-                    </div>
+                <details>
+                    <summary>What breed is Onji?</summary>
+                        <div>
+                            <p>Onji is an American  short hair.</p>
+                        </div>
+                </details>
+                 <details>
+                    <summary>When was Onji adopted?</summary>
+                        <div>
+                            <p>Onji was adopted in the month of October in 2019.</p>
+                        </div>
+                 </details>
+                 <details>
+                    <summary>Does he scratch or bite?</summary>
+                        <div>
+                            <p>No, Onji is a really friendly cat. Infact, he can sense sadness. He will sit next to his human for support.</p>
+                        </div>
+                 </details>
+                <details>
+                     <summary>What is Onji really good at?</summary>
+                        <div>
+                            <p>Onji is extremely skilled at begging food. He will stare at the food and slowly blink his eyes at you until you give in and feed him some food.</p>
+                        </div>
+                </details>
+             </section>
+            <section class="sectionInput">  <!--section for input form-->
+                <p><br><br><b>If you have any questions about this cute ginger cat, you can send a message here in the text box.<b> </p>
+                <div class="container">
+                    <form action="">
+                         <div class="form-group">
+                             <label for="Name">Name(2 to 50 characters) </label>
+                            <input type="text" id="firstName" name="firstName" required
+                              minlength="2" maxlength="50">       <!--This is where  input elemenet and minlength,maxlength attributes are used-->
+                        </div>
+                        <div class="form-group">
+                             <label for="email">email</label>
+                             <input type="email" id="email" name="email" required>
+                         </div>
+                         <div class="form-group">
+                            <label for="Message">Message</label>
+                             <textarea name="Message" id="Message"  cols="30" rows="10"></textarea>
+                        </div>
 
                     <button type="submit">Submit</button>
                 </form>
             </div>
         </section>
-    </article>
+     </article>
     </main>
+
 <footer  roles="copyright" class="showRight">Created by Sammana Kabir &copy; Copyright 2021 </footer>  <!--This is copyright footer-->
 </body>
 </html>
