@@ -1,17 +1,8 @@
-* {
-  padding: 0;
+html,
+body {
+  background-image: url("../assets/homepage.png");
+
   margin: 0;
-}
-.container {
-  height: 100vh;
-  width: 100%;
-  background-image: url(../assets/homepage.png);
-  background-position: center;
-  background-size: cover;
-  padding-left: 5%;
-  padding-right: 5%;
-  box-sizing: border-box;
-  position: relative;
 }
 
 .banner {
@@ -20,11 +11,19 @@
   margin: auto;
   display: flex;
   align-items: center;
+  padding-left: 2em;
 }
 
 .intro {
-  padding-top: 2em;
-  padding-left: 10em;
+  padding-top: 0.1em;
+  padding-left: 5em;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour {
+  padding-left: 5em;
 }
 
 h1 {
@@ -38,10 +37,14 @@ h1 {
 h2 {
   color: #333;
   margin-bottom: 0.5em;
+  font-size: 20px;
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  color: #333;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 nav {
@@ -76,6 +79,10 @@ nav ul li a {
   margin-right: 10px;
 }
 
+.showLeftWalking {
+  float: left;
+  padding-right: 40px;
+}
 body {
   padding: 2em;
   margin: 0;

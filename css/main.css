@@ -1,36 +1,28 @@
-* {
-  padding: 0;
+html,
+body {
+  background-image: url("../assets/homepage.png");
   margin: 0;
-}
-
-.container {
-  height: 100vh;
-  width: 100%;
-  background-image: url(../assets/homepage.png);
-  background-position: center;
-  background-size: cover;
-  padding-left: 5%;
-  padding-right: 5%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: relative;
 }
 
 .banner {
   height: 15vh;
   weight: 100%;
   margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+  padding-left: 2em;
 }
 
 .intro {
-  padding-top: 2em;
-  padding-left: 10em;
+  padding-top: 0.1em;
+  padding-left: 5em;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour {
+  padding-left: 5em;
 }
 
 h1 {
@@ -44,16 +36,18 @@ h1 {
 h2 {
   color: #333;
   margin-bottom: 0.5em;
+  font-size: 20px;
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  color: #333;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 nav {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   padding-left: 60px;
   font-weight: bolder;
 }
@@ -68,10 +62,8 @@ nav ul li a {
   text-decoration: none;
   color: #333;
   font-size: larger;
-  -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-
 nav ul li a:hover {
   color: #bd652e;
 }
@@ -84,6 +76,11 @@ nav ul li a:hover {
 .showLeft {
   float: left;
   margin-right: 10px;
+}
+
+.showLeftWalking {
+  float: left;
+  padding-right: 40px;
 }
 
 body {
@@ -101,15 +98,13 @@ summary {
   outline: none;
   border-radius: 0.3em;
   font-weight: bold;
-  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-
 summary:hover {
   background: #ffee34;
 }
 
-details[open]summary ~ * {
+details[open] summary ~ * {
   -webkit-animation: sweep 0.5s ease-in-out;
           animation: sweep 0.5s ease-in-out;
 }
@@ -135,11 +130,9 @@ details[open]summary ~ * {
     margin-top: 0;
   }
 }
-
 footer {
   text-align: center;
   font-size: 0.8em;
   line-height: 4em;
   margin-top: 0.1em;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
